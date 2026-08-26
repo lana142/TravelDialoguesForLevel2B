@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Noto Serif KR', serif;
+  --font-body: 'Lora', Georgia, serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --color-ink: #1a1410;
+  --color-paper: #f7f4ef;
+  --color-paper-warm: #ede9e1;
+  --color-accent-japan: #c94040;
+  --color-accent-korea: #2a5c8a;
+  --color-accent-vietnam: #3a7d44;
+  --color-muted: #7a6f64;
+  --color-tag-bg: #e8e2d9;
+  --color-tag-text: #5a4f44;
+  --color-border: #cfc8be;
+  --color-speaker-a: #c94040;
+  --color-speaker-b: #2a5c8a;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 2px; }

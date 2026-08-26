@@ -1,0 +1,10 @@
+{
+  "description": "This interactive web app offers engaging dialogues for Korean language learners, focusing on travel-related vocabulary and grammar for practical conversation skills.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
